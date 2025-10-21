@@ -1,7 +1,7 @@
 {
-  "name": "Your Friend",
+  "name": "Jools Rothblart",
   "role": "Software Developer",
-  "bio": "Los Angeles-based dev focused on clean UIs and fast sites.",
+  "bio": "Los Angeles-based based artist.",
   "email": "friend@example.com",
   "socials": [
     {
@@ -64,6 +64,21 @@
       }
     ]
   },
+
+  "cv": [
+    {
+      "title": "it worked",
+      "href": "#",
+      "blurb": "did it hto?",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "icon": "fas fa-code"
+    }
+  ],
+
   "seo": {
     "title": "Your Friend \u2013 Resume",
     "description": "Portfolio and resume"

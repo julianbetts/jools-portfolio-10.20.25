@@ -1,4 +1,12 @@
 /* Reset and Base Styles */
+
+@font-face {
+  font-family: 'Turnpike';
+  src: url('./assets/fonts/Turnpike.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +18,10 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Turnpike', sans-serif;
     line-height: 1.6;
-    color: #e5e7eb;
-    background-color: #0f172a;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .container {
@@ -27,12 +35,12 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
-    border-bottom: 1px solid #1e293b;
+    border-bottom: 1px solid #ffffff;
 }
 
 .nav-container {
@@ -47,7 +55,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #60a5fa;
+    color: #f3f3f3;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -108,8 +116,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #020617 100%);
-    color: white;
+    background: linear-gradient(135deg, #000000 25%, #ffffff 5%, #000000 10%);
+    color: rgb(255, 255, 255);
     padding-top: 80px;
 }
 
@@ -145,7 +153,7 @@ body {
     margin-bottom: 2rem;
     opacity: 0.8;
     animation: fadeInUp 1s ease 0.4s both;
-    color: #94a3b8;
+    color: #ffffff;
 }
 
 .hero-buttons {
@@ -204,7 +212,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 3px solid #60a5fa;
+    border: 3px solid #ffffff;
     box-shadow: 0 10px 30px rgba(96, 165, 250, 0.3);
     transition: all 0.3s ease;
     overflow: hidden;

@@ -46,6 +46,8 @@ async function loadSite() {
     renderProjects(site.projects || []);
     // Skills
     renderSkills(site.skills || {});
+    // Skills
+    renderSkills(site.cv || {});
     // Contact
     renderContact(site);
   } catch (err) {
@@ -103,6 +105,8 @@ function renderSkills(skills) {
     `);
   });
 }
+
+
 
 function renderContact(site) {
   const list = document.getElementById('contact-items');
