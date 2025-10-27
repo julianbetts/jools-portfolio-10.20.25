@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - Jools Rothblatt</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">Jools Rothblatt</a>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a></li>
+        <li><a href="/art/" class="nav-link {% if page.url == '/art/' %}active{% endif %}">Selected Work</a></li>
+        <li><a href="/contact/" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a></li>
+        <li><a href="/cv/" class="nav-link {% if page.url == '/cv/' %}active{% endif %}">CV</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Main Content -->
+  <main>
+    {{ content | safe }}
+  </main>
+
+
+
+  <script src="/app.js"></script>
+</body>
+</html>
