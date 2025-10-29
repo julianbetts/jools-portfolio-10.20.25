@@ -1,5 +1,129 @@
 ---
 layout: base.njk
-title: Art
+title: CV
 subtitle: Visual Artist
 ---
+<div class="cv-container">
+    <header class="cv-header">
+    <h1>Jools Braiman Rothblatt</h1>
+    <p class="birth-info">(b. 1991, Los Angeles, California)</p>
+    </header>
+    <section class="education">
+    <h2>Education</h2>
+    <p>School of the Art Institute of Chicago — Bachelor of Fine Arts, 2014</p>
+    </section>
+    <section class="solo-exhibitions">
+        <h2>Solo Exhibitions</h2>
+        <article class="exhibition-year">
+            <h3>2025</h3>
+            <ul>
+            <li><em>Duet</em>, Organized by Zoe Lukov and Kyle DeWoody, Carlye Packer, New York, New York</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2024</h3>
+            <ul>
+            <li><em>Life in Brodo</em>, Carlye Packer Gallery, Los Angeles, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2023</h3>
+            <ul>
+            <li><em>Bravado</em>, Escolar, Santa Rosa, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2022</h3>
+            <ul>
+            <li><em>Got the Life</em>, Stable, Other Places Art Fair, Santa Rosa, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2020</h3>
+            <ul>
+            <li><em>Paintings at Monty Bar</em>, Artists Projects, Los Angeles, California</li>
+            </ul>
+        </article>
+        </section>
+        <section class="group-exhibitions">
+        <h2>Group Exhibitions</h2>
+        <article class="exhibition-year">
+            <h3>2026</h3>
+            <ul>
+            <li>Upcoming Group Exhibition at Jessamine, Dallas, Texas</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2025</h3>
+            <ul>
+            <li><em>1TB Verbatim: Los Angeles Timing 2013-2025</em>, curated by Keith J Veradi, Leroy's, Los Angeles, California</li>
+            <li>Felix Art Fair, Carlye Packer, Los Angeles, California</li>
+            <li>Blind Spot, Princesse, Paris, France</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2024</h3>
+            <ul>
+            <li>Felix Art Fair, Carlye Packer, Los Angeles, California</li>
+            <li><em>Micasa</em>, curated by Amalia Ulman and Nick Irvin, New York, New York</li>
+            <li><em>Mystery Villa No. 1</em>, Society of Art Los Angeles, Los Angeles, California</li>
+            <li><em>Song For the Homesick</em>, curated by Benjamin C Scott, Lamontes Belly, Dallas, Texas</li>
+            <li>Other Places Art Fair 6, Escolar, San Pedro, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2023</h3>
+            <ul>
+            <li><em>Let the Experts Argue</em>, Hunter Shaw Fine Art, Los Angeles, California</li>
+            <li><em>Dog License (you got up)</em>, Blind Spot, New York, New York</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2022</h3>
+            <ul>
+            <li><em>Absence of Attitude</em>, Suzie Shride, Vienna, Austria</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2021</h3>
+            <ul>
+            <li><em>Anxiety 2</em>, HVW8 Gallery, Los Angeles, California</li>
+            <li>Queen St curated by Liam Neff, Los Angeles, California</li>
+            <li><em>The City / La Ville</em>, Chez Anonyme, Los Angeles, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2020</h3>
+            <ul>
+            <li><em>A Little Bit Country, A Little Bit Rock and Roll</em>, The Arts of Life at Circle Contemporary, Glenview, Illinois</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2019</h3>
+            <ul>
+            <li><em>Panic Room III</em>, Promo, Imfeldsteig 1, Zürich, Switzerland</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2017</h3>
+            <ul>
+            <li><em>Eric Schmid is an idiot</em>, What Pipeline, Detroit, Michigan</li>
+            </ul>
+        </article>
+    </section>
+    <section class="curator">
+    <h2>Curator</h2>
+        <article class="exhibition-year">
+            <h3>2019</h3>
+            <ul>
+            <li><em>Fun Hang</em>, Karma International, Los Angeles, California</li>
+            </ul>
+        </article>
+        <article class="exhibition-year">
+            <h3>2018</h3>
+            <ul>
+            <li><em>My Most Striking Feature is my Fist</em>, Karma International, Los Angeles, California</li>
+            </ul>
+        </article>
+    </section>
+</div>
