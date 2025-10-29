@@ -79,7 +79,7 @@ body {
 .hamburger span {
   width: 25px;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #000000;
   transition: 0.3s;
 }
 
@@ -254,6 +254,10 @@ body {
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-menu .nav-link {
+    color: #ffffff;
   }
 
   .page-header h1 {
