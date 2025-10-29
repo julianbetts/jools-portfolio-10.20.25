@@ -127,7 +127,7 @@ body {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -138,9 +138,9 @@ body {
   transition: transform 0.3s ease;
 }
 
-.gallery-item:hover {
+/* .gallery-item:hover {
   transform: translateY(-5px);
-}
+} */
 
 .gallery-item img {
   width: 100%;
@@ -187,12 +187,8 @@ body {
 }
 
 /* CV Sections */
-.cv-section {
-  margin-bottom: 3rem;
-}
-
-.cv-section h2 {
-  margin-top: 0;
+.cv-container {
+  text-align: center;
 }
 
 /* Writing */
@@ -241,6 +237,8 @@ body {
     display: flex;
   }
 
+
+  
   .nav-menu {
     position: fixed;
     left: -100%;
